@@ -1,0 +1,27 @@
+.width-lg {
+  /* width: 90%; */
+}
+
+.width-form {
+  /* width: 10rem; */
+}
+
+.form-control-lg {
+  height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 20rem;
+}
+
+.bg-middle-dark {
+   background-color: #ebebeb !important;
+}
+
+@media (min-width: 576px) {
+  .form-inline .form-control {
+    display: inline-block;
+    width: 20rem;
+    vertical-align: middle;
+  }
+}
